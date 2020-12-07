@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@color/splash_background">
+    <Button android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/btnBack"
+        android:text="Back To All Operations"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/btn_bg" android:layout_alignParentBottom="true" />
+
+    <ListView android:layout_width="match_parent"
+        android:layout_height="match_parent" android:id="@+id/listQuestion"
+        android:layout_alignParentTop="true" android:layout_above="@id/btnBack" />
+</RelativeLayout>

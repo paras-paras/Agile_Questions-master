@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+    <TextView
+        android:textColor="@color/colorRed"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textQuestionText"/>
+<TextView
+        android:textColor="@color/colorRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textOptionA"/>
+<TextView
+        android:textColor="@color/colorRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textOptionB"/>
+<TextView
+        android:textColor="@color/colorRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textOptionC"/>
+<TextView
+        android:textColor="@color/colorRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textOptionD"/>
+<TextView
+        android:textColor="@color/colorRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textAnswer"/>
+</LinearLayout>

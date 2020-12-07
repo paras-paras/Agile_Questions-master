@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Q_Bank</string>
+    <string name="action_settings">Settings</string>
+  <string-array name="options">
+    <item>A</item>
+    <item>B</item>
+    <item>C</item>
+    <item>D</item>
+  </string-array>
+</resources>

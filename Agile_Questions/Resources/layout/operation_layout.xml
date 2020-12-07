@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@color/splash_background">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Available Operations"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textView1" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddNewSubject"
+        android:text="Add New Subject"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/btn_bg"
+        android:textColor="@android:color/white"
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" 
+            android:textSize="10sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnViewSubject"
+        android:text="View All Subject"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/btn_bg"
+        android:textColor="@android:color/white"
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" 
+            android:textSize="10sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEditSubject"
+        android:text="Edit Subject"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/btn_bg"
+        android:textColor="@android:color/white"
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" 
+            android:textSize="10sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDeleteSubject"
+        android:text="Delete Subject"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/btn_bg"
+        android:textColor="@android:color/white"
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" 
+            android:textSize="10sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddNewQuestion"
+        android:text="Add New Question"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/btn_bg"
+        android:textColor="@android:color/white"
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" 
+            android:textSize="10sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnViewQuestion"
+        android:text="View All Question"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/btn_bg"
+        android:textColor="@android:color/white"
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" 
+            android:textSize="10sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEditQuestion"
+        android:text="Edit Question"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/btn_bg"
+        android:textColor="@android:color/white"
+    />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" 
+            android:textSize="10sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDeleteQuestion"
+        android:text="Delete Question"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/btn_bg"
+        android:textColor="@android:color/white"
+    />
+</LinearLayout>
+</ScrollView>
